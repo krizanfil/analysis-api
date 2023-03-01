@@ -46,7 +46,7 @@ def pabrai(
         growth_rate = 0
 
     total_fcf = 0
-    for year in range(1, years + 1):
+    for _ in range(1, years + 1):
         fcf *= growth_rate
         total_fcf += fcf
 
